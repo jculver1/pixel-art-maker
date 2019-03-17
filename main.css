@@ -12,13 +12,32 @@ table {
      border: 1px solid black;
  }
 
- .outsideOfGrid{
+ body{
    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   flex-direction: column;
  }
 
- .item {
-  flex-grow: <number>; /* default 0 */
+h1{
+  font-family: 'Londrina Sketch', cursive;
 }
 
+ .title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+ .outsideOfGrid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.colorSelection{
+  align-self: center;
+  font-family: 'Londrina Sketch', cursive;
+}
+
+.padding{
+  flex-grow: 1;
+}
