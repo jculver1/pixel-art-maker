@@ -7,9 +7,18 @@ table {
 }
 
  tr td {
-     width: 5px;
-     height: 5px;
+     width: 15px;
+     height: 15px;
      border: 1px solid black;
-
  }
+
+ .outsideOfGrid{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .item {
+  flex-grow: <number>; /* default 0 */
+}
 

@@ -2,9 +2,9 @@ function tableCreate() {
     var body = document.getElementsByClassName('myTable')[0]
     var tbl = document.createElement('table')
     var tbody = document.createElement('tbody')
-    for (var i = 0; i < 61; i++) {
+    for (var i = 0; i < 30; i++) {
         var tr = document.createElement('tr')
-        for (var j = 0; j < 61; j++) {
+        for (var j = 0; j < 30; j++) {
             var td = document.createElement('td')
             tr.appendChild(td)  
         }
@@ -14,7 +14,6 @@ function tableCreate() {
     body.appendChild(tbl)
 }
 tableCreate()
-
 
 var colorPicker = document.querySelector('#colorPicker')
 colorPicker.addEventListener('input', function(event){
