@@ -18,7 +18,6 @@ tableCreate()
 var colorPicker = document.querySelector('#colorPicker')
 colorPicker.addEventListener('input', function(event){
     var colorSelected = event.target.value
-    console.log(colorSelected)
     var myTable = document.querySelector('table')
     myTable.addEventListener('click', function(event){
         for(var i = 0; i < myTable.rows.length; i++){

@@ -2,13 +2,11 @@
 
 table {
   border-collapse: collapse;
-  height: 100%;
+  height: 500%;
   width: 100%;
 }
 
  tr td {
-     width: 15px;
-     height: 15px;
      border: 1px solid black;
  }
 
@@ -21,6 +19,7 @@ table {
 
 h1{
   font-family: 'Londrina Sketch', cursive;
+  font-size: 45px;
 }
 
  .title{
@@ -39,6 +38,7 @@ h1{
 .colorSelection{
   align-self: center;
   font-family: 'Londrina Sketch', cursive;
+  font-size: 25px;
 }
 
 .padding{
@@ -47,4 +47,8 @@ h1{
 
 .padding-to-the-right{
   flex-grow: 3;
+}
+
+.myTable{
+  flex-grow: 5;
 }
